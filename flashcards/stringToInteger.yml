@@ -1,0 +1,10 @@
+author: Genesis Bejarano
+author_email: gbejarano530@gmail.com
+author_date: 1/13/2023
+name: Changing a string input into integers.
+quiz: What can you add to this code to change the users input into integers?
+     number1 = input("Enter a number:")
+answer: |
+  number1 = float(input("Enter a number"))
+explanation: |
+  By adding 'float' in front of 'input', it will automatically turn the users input into an integer.
