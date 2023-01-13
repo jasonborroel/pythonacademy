@@ -1,0 +1,9 @@
+author: Leslie Cuellar
+author_date: 1/13/2023
+name: How to comment
+quiz: How do you make a comment in Python
+answer: |
+  start by typing # before making a comment
+explanation: |
+  This is explained well at source
+source_url: https://www.w3schools.com/python/python_comments.asp/
