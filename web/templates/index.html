@@ -4,27 +4,21 @@
 
 <body>
     <div class="App">
-        <header class="App-header">
-            <img src="{{ url_for('static', filename='Octocat.png') }}" class="App-logo" alt="logo" />
+        <header class="App-header"></header>
             <p>
-                GitHub Codespaces <span class="heart">♥️</span> Flask
+                Python Academy <span class="heart">♥️</span> Students
             </p>
             <p class="small">
-                    <table>
-                      <tr>
-                          <th>Title</th>
-                          <th>Question</th>
-                      </tr>
-
+                    <div>
                       {% for flashcard in flashcards %}
-                      <tr>
-                          <td>{{ flashcard.name }}</td>
-                          <td>
+                      <div>
+                          <p>{{ flashcard.name }}<p>
+                          <p>
                               {{flashcard.quiz}}
-                          </td>
-                      </tr>
+                          <p>
+                          </div>
                       {% endfor %}
-                  </table>
+                    </div>
             </p>
         </header>
     </div>
