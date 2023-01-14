@@ -4,6 +4,6 @@ date: 1/13/2023
 name: test your quotes
 quiz: How do you sort an array alphabetically?
 answer: |
-list.sort()
+  list.sort()
 explaination: |
-list is the array of works or letters that you want, sort is the built in function that sorts our variables
+  list is the array of works or letters that you want, sort is the built in function that sorts our variables

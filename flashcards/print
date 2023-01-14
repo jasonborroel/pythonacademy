@@ -3,8 +3,9 @@ author_email: jdguerra215@gmail.com
 author_date: 1/13/2023
 name: print
 quiz: how to print
-answer: 
-print()
-explanation: output print 
+answer: |
+  print()
+explanation: |
+  output print 
   This is explained well at source
-https://realpython.com/python-print/
+  https://realpython.com/python-print/

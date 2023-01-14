@@ -2,7 +2,8 @@ author: Moises Cantoran
 author_email: moisescantoran05@gmail.com
 date: 1-13-2023
 name: Simple exercise
-quiz: For i in range(3):
+quiz: |
+  For i in range(3):
         print(i)
 answer: |
       0, 1, 2

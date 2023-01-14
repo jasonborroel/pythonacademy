@@ -2,7 +2,7 @@ author: Quinn Lewis
 author_email: quinntlewis@gmail.com
 author_date: 1/13/2023
 name: Basic Ascending sort
-Quiz: Determine the output from the input code: sorted([5, 2, 3, 1, 4, 3,11, 433, 1, 1.6])
+Quiz: "Determine the output from the input code: sorted([5, 2, 3, 1, 4, 3,11, 433, 1, 1.6])"
 answer: |
   [1, 1, 1.6, 2, 3, 3, 4, 5, 11, 433]
 explanation: |

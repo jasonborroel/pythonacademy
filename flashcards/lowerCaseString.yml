@@ -2,7 +2,7 @@
  author_email: cbeatty1@cnm.edu
  author_date: 1/13/2023
  name: make string lowercase
- quiz: How to change uppercase letters to lowercase in a string: Three options
+ quiz: "How to change uppercase letters to lowercase in a string: Three options"
  answer: |
   word.lower() or word.casefold() or lowercase()
  explanation: |
