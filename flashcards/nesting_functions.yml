@@ -1,0 +1,9 @@
+author: Rikiya Burson
+author_email: rikburson@gmail.com
+author_date: 1/15/2023
+name: Nesting Functions
+quiz: Can you nest one function inside another without calling it?
+answer: |
+  yes, but not if you are incorporating the return of the inner function into the outer one.
+explanation: |
+  Since the nested function was not called, the outer function has nothing to attribute to the value the nested function represents.
