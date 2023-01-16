@@ -48,7 +48,8 @@ code {
     border-color: #dda7ea;
 }
 .title{
-    background-color: grey;
+    background-color: rgb(144, 143, 143);
+    border-radius: 3px;
 }
 p.question{
     color:#e47676;
