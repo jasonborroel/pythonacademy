@@ -7,7 +7,7 @@ Prerequisites
 Steps to run
   * Install this repo using Github Desktop Option
   * Change directory to the web project
-  `cd web\'
+  `cd web\`
   * Install python packages using
   `pip install -r requirements.txt`
   * Run the webserver
