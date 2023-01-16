@@ -3,27 +3,25 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 
 <body>
-    <div class="App">
-        <header class="App-header"></header>
+    <div class="main">
+        <header class="header">
             <p>
                 Python Academy <span class="heart">♥️</span> Students
             </p>
-            <p class="small">
-                    <div>
-                      {% for flashcard in flashcards %}
-                      <div>
-                          <p>{{ flashcard.name }}<p>
-                          <p>
-                              {{flashcard.quiz}}
-                          <p>
-                          <p>
-                             {{flashcard.explanation}}
-                         </p>
-                          </div>
-                      {% endfor %}
-                    </div>
-            </p>
         </header>
+        <div class="cards">
+            {% for flashcard in flashcards %}
+            <div class="card">
+                <div class="title">{{ flashcard.name }}<div>
+                <p class="question">
+                    {{flashcard.quiz}}
+                <p>
+                <p class="explanation">
+                    {{flashcard.explanation}}
+                </p>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </body>
 
