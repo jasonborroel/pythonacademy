@@ -7,7 +7,10 @@ app = Flask(__name__)
 @app.route("/")
 def hello_world():
     flashcards = list()
-    with open('../flashcards/Basic_ascending_sort.yml', 'r') as card:
+    with open('../flashcards/quoting.yml', 'r') as card:
         card = yaml.safe_load(card)
         flashcards.append(card)
+    with open('../flashcards/nesting_functions.yml', 'r') as card:
+        card = yaml.safe_load(card)
+        flashcards.append(card)        
     return render_template("index.html", flashcards=flashcards)
