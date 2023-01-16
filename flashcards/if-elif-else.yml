@@ -2,13 +2,15 @@ author: Harshini Jayaprakash
 author_email: hjayaprakash1@student.ohlone.edu
 author_date: 1-13-23
 name: If-Elif-Else Statements 
-quiz: Analyze this fragment of code below, what will be generated if x = 7?
+quiz: |
+    Analyze this fragment of code below, what will be generated if x = 7?
       if x > 0:
           print("x is positive")
       elif x < 0:
           print("x is negative")
       else:
           print("x is zero")
-answer: This fragment of code will generate the response: x is positive 
-explanation: Since the value of x is 7, and that is a number greater than 0, the fragment of code will state that x is positive.
+answer: "This fragment of code will generate the response: x is positive"
+explanation: |
+    Since the value of x is 7, and that is a number greater than 0, the fragment of code will state that x is positive.
  

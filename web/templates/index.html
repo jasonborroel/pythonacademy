@@ -12,13 +12,14 @@
         <div class="cards">
             {% for flashcard in flashcards %}
             <div class="card">
-                <div class="title">{{ flashcard.name }}<div>
+                <div class="title">{{ flashcard.name }}</div>
                 <p class="question">
                     {{flashcard.quiz}}
                 <p>
                 <p class="explanation">
                     {{flashcard.explanation}}
                 </p>
+                <p class="card-footer">{{flashcard.author}}</p>
             </div>
             {% endfor %}
         </div>

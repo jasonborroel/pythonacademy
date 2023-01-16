@@ -6,6 +6,6 @@ quiz: "How to change letters to uppercase"
 answer: |
   word.upper 
 explanation: |
-"  Word would be the string variable being used in this function. "
-"By adding the .upper to the variable it will make at letters in the string uppercase." 
+  Word would be the string variable being used in this function.
+  By adding the .upper to the variable it will make at letters in the string uppercase.
 source_url: https://pythonexamples.org/python-convert-string-to-uppercase/

@@ -2,7 +2,7 @@ author: Janice Morales
 author_email: moralesjanicee@gmail.com
 author_date: 1/13/2023
 name: Test Your Quotes
-quiz:How do you compare the closeness of two values?
+quiz: How do you compare the closeness of two values?
 answer: |
   math.isclose()
 explanation: |

@@ -3,9 +3,9 @@ Author_email: fcoroando2@student.ohlone.edu
 date: 01 - 13 - 2023
 name: how to import
 quiz: how to import pi in math
-answer: 
-import math
-x = math.pi
-return x
+answer: |
+  import math
+  x = math.pi
+  return x
 explanation: we use import math to call pi and have it return x 
 source_url: https://www.w3schools.com/python/python_math.asp

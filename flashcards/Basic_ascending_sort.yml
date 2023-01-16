@@ -6,6 +6,6 @@ Quiz: "Determine the output from the input code: sorted([5, 2, 3, 1, 4, 3,11, 43
 answer: |
   [1, 1, 1.6, 2, 3, 3, 4, 5, 11, 433]
 explanation: |
-The "sorted" function followed directly by a list of numbers contained within ([""]) will be ran through an ascending sort function."
+  The "sorted" function followed directly by a list of numbers contained within ([""]) will be ran through an ascending sort function."
   This is explained more fully at the source
 source_url: https://docs.python.org/3/howto/sorting.html#sorting-basics

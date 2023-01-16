@@ -3,5 +3,6 @@ author_email: pjojola@nmsu.edu
 name: Classes
 quiz: How do you create a class in Python
 answer: "class class_name:"
-explanation: to create a class is first labeling "class" then typing whatever you want
-your class name to be. End the line with a ':'
+explanation: |
+  to create a class is first labeling "class" then typing whatever you want
+  your class name to be. End the line with a ':'
