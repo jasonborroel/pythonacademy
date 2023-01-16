@@ -1,5 +1,13 @@
 
 Prerequisites
-- Install Github Desktop
-- Install Visual Studio Code
+*  Install [Github Desktop](https://desktop.github.com/)
+* Install [Visual Studio Code](https://code.visualstudio.com/)
 
+
+Steps to run
+* Install this repo using Github Desktop Option
+* `cd web\'
+* Install python packages using
+`pip install -r requirements.txt`
+* Run the webserver
+`flask run`
