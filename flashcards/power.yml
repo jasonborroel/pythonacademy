@@ -1,0 +1,10 @@
+author: Jason Borroel
+author_email: jasondborroel@gmail.com
+author_date: 1/13/2023
+name: How to augment a number to a power in Python
+quiz: How do you write a number to a power in Python?
+answer: |
+  You use two asterisks: **
+explanation: |
+  In essence, you can write 2^3 as 2**3
+source_url: https://www.digitalocean.com/community/tutorials/how-to-do-math-in-python-3-with-operators
